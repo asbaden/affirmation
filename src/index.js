@@ -24,10 +24,7 @@ function BookList() {
   return (
   <section className="bookList">
     <Book />
-    <Book />
-    <Book />
-    <Book />
-    <Book />
+    
   </section>
   )
 }
