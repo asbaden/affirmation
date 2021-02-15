@@ -32,7 +32,6 @@ const Book = () => {
   return (
   <article className="book">
     <img src="https://images-na.ssl-images-amazon.com/images/I/81eB%2B7%2BCkUL._AC_UL200_SR200,200_.jpg" alt=""/>
-    
     <h1>I love you to the moon and back</h1>
     <h4>Amelia Hepworth</h4>
   </article>
