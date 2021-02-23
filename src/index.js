@@ -19,21 +19,28 @@ import "./index.css"
 // className instead of classclose every element 
 // formatting
 
+const author = "Amelia Hepworth";
+const title = "I Love You to the Moon and Back";
+const img = "https://images-na.ssl-images-amazon.com/images/I/81eB%2B7%2BCkUL._AC_UL200_SR200,200_.jpg"
 
 function BookList() {
   return (
   <section className="bookList">
-    <Book />
+    <Book job="developer" />
     
   </section>
   )
 }
-const Book = () => {
+
+
+const Book = (props) => {
+  console.log("this is props", props);
+  
   return (
   <article className="book">
-    <img src="https://images-na.ssl-images-amazon.com/images/I/81eB%2B7%2BCkUL._AC_UL200_SR200,200_.jpg" alt=""/>
-    <h1>I love you to the moon and back</h1>
-    <h4>Amelia Hepworth</h4>
+    <img src={img} alt=""/>
+    <h1>{title}</h1>
+    <h4>{author}</h4>
   </article>
   )
 }
