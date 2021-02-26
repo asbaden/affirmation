@@ -26,7 +26,7 @@ const img = "https://images-na.ssl-images-amazon.com/images/I/81eB%2B7%2BCkUL._A
 function BookList() {
   return (
   <section className="bookList">
-    <Book job="developer" />
+    <Book job="developer" title="rnadom title" number={22}/>
     
   </section>
   )
@@ -34,7 +34,6 @@ function BookList() {
 
 
 const Book = (props) => {
-  console.log("this is props", props);
   
   return (
   <article className="book">
