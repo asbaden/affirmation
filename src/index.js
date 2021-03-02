@@ -2,6 +2,9 @@ import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 import {books} from "./books"
 
+import Book from "./Book"
+
+
 import "./index.css"
 
 
@@ -36,27 +39,7 @@ function BookList() {
 
 
 
-const Book = (props) => {
-  console.log(props);
-  const {img, title, author} = props
-  //attribute, eventHandler
-  //onClick, onMouseOver
-  const clickHandler = () =>{
-    alert("hello world")
-  }
-  
-  return (
-  <article className="book" onMouseOver={()=>{
-    console.log(title);
-    
-  }}>
-    <img src={img} alt=""/>
-    <h1>{title}</h1>
-    <h4>{author}</h4>
-    <button type="button" onClick={clickHandler}></button>
-  </article>
-  )
-}
+
 
 
 ReactDOM.render(<BookList />,document.getElementById('root'));
