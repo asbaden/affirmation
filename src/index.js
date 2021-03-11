@@ -9,13 +9,6 @@ import "./index.css"
 
 
 
-
-
-
-// stateless funcitonal component 
-// always return JSX
-
-
 //JSX RULES
 // return single element 
 // div / section / article or Fragment
