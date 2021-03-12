@@ -9,13 +9,6 @@ import "./index.css"
 
 
 
-//JSX RULES
-// return single element 
-// div / section / article or Fragment
-// use camelCase for html attribute 
-// className instead of classclose every element 
-// formatting
-
 
 function BookList() {
   
